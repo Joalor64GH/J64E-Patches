@@ -7,6 +7,10 @@ art/test_x64-debug-officialrelease.bat
 
 +### FNF-Bot
 +FNFBot.exe
++
++### GameJolt-Specific
++GJKeys.hx
++GameJolt.hx
 
 ### VS Code
 export/*
@@ -14,7 +18,9 @@ export/*
 -*.code-workspace
 +.DS_STORE
 # Local history which shouldn't be shared.
-.history
+-.history
++desktop.ini
++.history/
 .ionide
 # ! means a file should be added regardless of it it gets ignored prior.
 # Including to allow others to use already set-up configuration tweaked for the project.
